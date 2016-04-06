@@ -21,9 +21,6 @@ public class WorkersEmail {
         this.arrayWorkers = trabajador;
     }
     
-    public void imprimir(){
-      System.out.println(arrayWorkers.get(0).getNombre());
-    }
     public void creacionCorreos(){
         
         for(int i=0; i<arrayWorkers.size();i++){

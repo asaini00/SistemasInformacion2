@@ -64,8 +64,12 @@ public class Main {
                                      account.getArrayIban(),
                                      account.getAccountsPossitions());
 
-      System.out.println("Prueba push");
-      
+       
+       ExcelManagerMail email;
+        email = new ExcelManagerMail("src/es/SSII2/resources/Practica2.xlsx");
+        email.readAccountExcel();
+        email.actualizarDnis();
+       
     }
     
     
