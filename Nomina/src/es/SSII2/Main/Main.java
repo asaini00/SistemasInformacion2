@@ -65,8 +65,6 @@ public class Main {
                                      account.getAccountsPossitions());
 
       System.out.println("Prueba push");
-      System.out.println("Prueba push");
-      System.out.println("Prueba push");
       
     }
     
